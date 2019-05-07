@@ -17,13 +17,6 @@ module.exports.createPool = mysql_createpool;
 async function mysql_getconnection(pool) {
     var getConnection = pool.getConnection;
     let connection = await util.promisify(getConnection.bind(pool))();
-    // let connection = await new Promise((resolve, reject) => {
-    //     pool.getConnection(function(err, con){
-    //         if (err) reject(err);
-    
-    //         resolve(con);
-    //     });
-    // });
 
     return connection;
 }
