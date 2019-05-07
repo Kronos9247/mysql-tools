@@ -1,8 +1,8 @@
 # mysql-tools
 
 ## Table of Contents
-* [Install](###Install)
-* [Introduction](###Introduction)
+* [Install](#Install)
+* [Introduction](#Introduction)
 
 ### Install
 This is a [Node.js](https://nodejs.org/) module and available through npm.
