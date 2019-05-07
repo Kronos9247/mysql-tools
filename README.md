@@ -39,3 +39,5 @@ app.get('/rest', function(req, res, next) {
 
 module.exports = app;
 ```
+
+*Note* that this small library is build ontop of the [mysql](https://github.com/mysqljs/mysql) Node.js module and therefore supports all of its features. 
